@@ -32,6 +32,9 @@
     - assertTimeoutPreemptively​(Duration timeout, ThrowingSupplier<T> supplier)
    
 - JUnit Assumptions
+  - assumeTrue​(boolean assumption)
+  - assumeTrue​(boolean assumption, String message)
+    
 - Conditional JUnit Test Execution
 - Using AssertJ with JUnit
 - Using Hamcrest with JUnit
