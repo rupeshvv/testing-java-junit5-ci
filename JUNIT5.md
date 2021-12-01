@@ -110,5 +110,7 @@
       - @ArgumentsSource
 
 - Unit Tests vs Integration Tests 
-     - 
+     - Creat IT test PetTypeSDJpaServiceIT
+  
 - JUnit Extensions
+    - 
