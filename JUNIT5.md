@@ -42,9 +42,11 @@
    
 - Using AssertJ with JUnit
    - add assertj dependency
-   - assertThat() 
+   - assertThat() -> org.assertj.core.api.Assertions.assertThat;
   
 - Using Hamcrest with JUnit
+   - add hamcrest dependency
+   - assertThat() -> org.hamcrest.MatcherAssert.assertThat;
 - Assignment - Write JUnit Test for Vet Controller List Vets
 
 ##Advanced Junit Testing
