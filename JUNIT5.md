@@ -23,7 +23,12 @@
    - @DisplayName("some name")
    
 - Testing Expected Exceptions
+    - oopsHandler() throws exception
+    - create exception class
+    - assertThrows​(Class<T> expectedType, Executable executable)
+  
 - Testing Timeouts
+    - 
 - JUnit Assumptions
 - Conditional JUnit Test Execution
 - Using AssertJ with JUnit
