@@ -101,7 +101,10 @@
      - @CsvFileSource
   
 - JUnit Parameterized Tests - Method Provider
-      - 
+      - @ParameterizedTest
+      - @MethodSource
+
 - JUnit Parameterized Tests - Custom Provider
+      - 
 - Unit Tests vs Integration Tests
 - JUnit Extensions
