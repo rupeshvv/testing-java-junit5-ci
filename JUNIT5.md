@@ -113,4 +113,6 @@
      - Creat IT test PetTypeSDJpaServiceIT
   
 - JUnit Extensions
-    - 
+    - create junitextensions package
+    - create class TimingExtension
+    - @ExtendWith() in IT
