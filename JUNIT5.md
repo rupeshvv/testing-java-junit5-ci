@@ -28,7 +28,9 @@
     - assertThrows​(Class<T> expectedType, Executable executable)
   
 - Testing Timeouts
-    - 
+    - assertTimeout​(Duration timeout, ThrowingSupplier<T> supplier)
+    - assertTimeoutPreemptively​(Duration timeout, ThrowingSupplier<T> supplier)
+   
 - JUnit Assumptions
 - Conditional JUnit Test Execution
 - Using AssertJ with JUnit
