@@ -10,6 +10,9 @@
      - assertTrue​(boolean condition, Supplier<String> messageSupplier)
   
 - JUnit Grouped Assertions
+    - assertAll​(String heading, Collection<Executable> executables)
+    - assertAll​(String heading, Stream<Executable> executables)
+  
 - JUnit Dependent Assertions
 - Skipping JUnit Tests
 - JUnit Test Display Names
