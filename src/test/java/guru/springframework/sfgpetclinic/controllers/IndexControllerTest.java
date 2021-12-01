@@ -1,29 +1,33 @@
 package guru.springframework.sfgpetclinic.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class IndexControllerTest {
-     IndexController indexController;
+     IndexController controller;
     @BeforeEach
     void setUp() {
-        indexController =new IndexController();
+        controller =new IndexController();
     }
 
+    @DisplayName("Test Proper View name is returned for index page")
     @Test
     void index() {
-        assertEquals("index",indexController.index());
-        assertEquals("index",indexController.index(),"wrong view returned");
-        assertEquals("index",indexController.index(),()->"Another expensive message "+
-                "make me only if you have to");
+        assertEquals("index", controller.index());
+        assertEquals("index", controller.index(), "Wrong View Returned");
 
+        assertEquals("index", controller.index(), () -> "Another Expensive Message " +
+                "Make me only if you have to");
     }
 
     @Test
+    @DisplayName("Test exception")
     void oopsHandler() {
-        assertTrue("notimplemented".equals(indexController.oopsHandler()),()->"This is some expensive "+
-                                "message to build "+"for my test");
+        assertTrue("notimplemented".equals(controller.oopsHandler()), () -> "This is some expensive " +
+                "Message to build" +
+                "for my test");
     }
 }

@@ -17,9 +17,11 @@
      - Owner extends Person 
   
 - Skipping JUnit Tests
-  - @Disabled
+  - @Disabled("some name")
   
 - JUnit Test Display Names
+   - @DisplayName("some name")
+   
 - Testing Expected Exceptions
 - Testing Timeouts
 - JUnit Assumptions
