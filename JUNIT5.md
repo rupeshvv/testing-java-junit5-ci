@@ -61,8 +61,11 @@
     - Check out OwnerMapServiceTest 
   
 - JUnit Test Interfaces
-   - 
-- Using JUnit Default Test Methods
+   - add interfaces ControllerTests and ModelTests 
+   - add Tag to both interfaces
+   
+- Using JUnit Default Test Methods 
+    - 
 - Repeating Tests with JUnit 5
 - JUnit Test Dependency Injection
 - Assignment - JUnit Dependency Injection
