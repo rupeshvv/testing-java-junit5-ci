@@ -36,6 +36,10 @@
   - assumeTrue​(boolean assumption, String message)
     
 - Conditional JUnit Test Execution
+    - @EnabledOnOs(OS.WINDOWS)
+    - @EnabledOnJre(JRE.JAVA_8)
+    - @EnabledIfEnvironmentVariable(named = "username", matches = "Rupesh")
+   
 - Using AssertJ with JUnit
 - Using Hamcrest with JUnit
 - Assignment - Write JUnit Test for Vet Controller List Vets
