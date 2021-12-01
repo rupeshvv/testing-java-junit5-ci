@@ -76,7 +76,9 @@
    - RepetitionInfo
   
 - Assignment - JUnit Dependency Injection
-     - 
+     - ModelRepeatedTests
+     - PersonRepeatedTests
+     
 - JUnit Parameterized Tests - Value Source
 - JUnit Parameterized Test - Display Name
 - JUnit Parameterized Tests - ENUM Source
