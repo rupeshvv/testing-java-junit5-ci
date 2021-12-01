@@ -84,9 +84,15 @@
      - @ValueSource()
   
 - JUnit Parameterized Test - Display Name
-      -  
+      -  @DisplayName()
+
 - JUnit Parameterized Tests - ENUM Source
+      - create enum class in model
+      - @ParameterizedTest
+      - @EnumSource
+
 - JUnit Parameterized Tests - CSV Source
+       - 
 - JUnit Parameterized Tests - CSV File Source
 - JUnit Parameterized Tests - Method Provider
 - JUnit Parameterized Tests - Custom Provider
