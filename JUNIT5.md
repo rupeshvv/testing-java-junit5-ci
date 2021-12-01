@@ -53,7 +53,12 @@
 
 ##Advanced Junit Testing
 - Tagging and Filtering JUnit Tests
+   - @Tag("controllers")
+   - @Tag("model")
+   - Edit Configurations and set new junit tests tags in it.
+  
 - JUnit Nested Tests
+    - 
 - JUnit Test Interfaces
 - Using JUnit Default Test Methods
 - Repeating Tests with JUnit 5
