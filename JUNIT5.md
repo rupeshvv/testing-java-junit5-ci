@@ -72,8 +72,11 @@
     - @RepeatedTest()
    
 - JUnit Test Dependency Injection
-   - 
+   - TestInfo
+   - RepetitionInfo
+  
 - Assignment - JUnit Dependency Injection
+     - 
 - JUnit Parameterized Tests - Value Source
 - JUnit Parameterized Test - Display Name
 - JUnit Parameterized Tests - ENUM Source
