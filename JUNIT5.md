@@ -1,7 +1,7 @@
 #**Junit5 Topics Covered**
  ##Testing java with junit5
 - JUnit Assertions  
-   -IndexControllerTest 
+   - IndexControllerTest 
      - assertEquals​(Object expected, Object actual)
      - assertEquals​(Object expected, Object actual, String message)
      - assertEquals​(Object expected, Object actual, Supplier<String> messageSupplier)
@@ -14,6 +14,8 @@
     - assertAll​(String heading, Stream<Executable> executables)
   
 - JUnit Dependent Assertions
+     - Owner extends Person 
+  
 - Skipping JUnit Tests
 - JUnit Test Display Names
 - Testing Expected Exceptions
