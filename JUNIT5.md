@@ -105,6 +105,10 @@
       - @MethodSource
 
 - JUnit Parameterized Tests - Custom Provider
-      - 
-- Unit Tests vs Integration Tests
+      - create class CustomArgsProvider
+      - @ParameterizedTest
+      - @ArgumentsSource
+
+- Unit Tests vs Integration Tests 
+     - 
 - JUnit Extensions
