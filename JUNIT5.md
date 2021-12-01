@@ -69,8 +69,10 @@
     - Implemented in ControllerTests
   
 - Repeating Tests with JUnit 5
-    - 
+    - @RepeatedTest()
+   
 - JUnit Test Dependency Injection
+   - 
 - Assignment - JUnit Dependency Injection
 - JUnit Parameterized Tests - Value Source
 - JUnit Parameterized Test - Display Name
