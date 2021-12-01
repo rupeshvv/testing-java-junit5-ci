@@ -41,6 +41,9 @@
     - @EnabledIfEnvironmentVariable(named = "username", matches = "Rupesh")
    
 - Using AssertJ with JUnit
+   - add asertj dependency
+   - assertThat() 
+  
 - Using Hamcrest with JUnit
 - Assignment - Write JUnit Test for Vet Controller List Vets
 
