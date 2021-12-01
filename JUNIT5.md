@@ -96,8 +96,12 @@
        - @CsvSource
 
 - JUnit Parameterized Tests - CSV File Source
-     - 
+     - create resources folder under test
+     - @ParameterizedTest
+     - @CsvFileSource
+  
 - JUnit Parameterized Tests - Method Provider
+      - 
 - JUnit Parameterized Tests - Custom Provider
 - Unit Tests vs Integration Tests
 - JUnit Extensions
