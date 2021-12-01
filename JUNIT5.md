@@ -92,8 +92,11 @@
       - @EnumSource
 
 - JUnit Parameterized Tests - CSV Source
-       - 
+       - @ParameterizedTest
+       - @CsvSource
+
 - JUnit Parameterized Tests - CSV File Source
+     - 
 - JUnit Parameterized Tests - Method Provider
 - JUnit Parameterized Tests - Custom Provider
 - Unit Tests vs Integration Tests
