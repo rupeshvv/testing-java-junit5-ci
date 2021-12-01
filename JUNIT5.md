@@ -58,8 +58,10 @@
    - Edit Configurations and set new junit tests tags in it.
   
 - JUnit Nested Tests
-    - 
+    - Check out OwnerMapServiceTest 
+  
 - JUnit Test Interfaces
+   - 
 - Using JUnit Default Test Methods
 - Repeating Tests with JUnit 5
 - JUnit Test Dependency Injection
