@@ -116,3 +116,8 @@
     - create junitextensions package
     - create class TimingExtension
     - @ExtendWith() in IT
+  
+## Test Execution
+     - Maven Surefire Plugin
+     - Maven Failsafe Plugin
+     - Maven SurefireTest Reporting
