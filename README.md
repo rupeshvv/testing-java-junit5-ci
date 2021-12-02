@@ -1,5 +1,5 @@
 [![CircleCI](https://circleci.com/gh/rupeshvv/testing-java-junit5-ci/tree/master.svg?style=svg)](https://circleci.com/gh/rupeshvv/testing-java-junit5-ci/tree/master)
-# Introduction to JUnit 5 with Maven
+# Introduction to JUnit 5 with Maven -CI Example
 
 All source code examples in the repository are for my [Online Course - Testing Spring Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO)
 
