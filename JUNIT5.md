@@ -121,3 +121,4 @@
      - Maven Surefire Plugin
      - Maven Failsafe Plugin
      - Maven SurefireTest Reporting
+     - Tags in maven
